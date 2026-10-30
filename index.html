@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEYOND THE COUNTER — Al-Arafah Islami Bank PLC Field Visit Presentation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Screen Reader Live Announcer for Tab Navigation -->
+  <div id="sr-tab-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- ========================================================================
+       OPENING COVER PAGE (100vh Full-Screen Presentation Cover)
+       ======================================================================== -->
+  <section id="cover-screen" class="cover-screen" aria-label="Presentation Cover Page">
+    <div class="cover-top-ribbon" aria-hidden="true"></div>
+
+    <div class="cover-inner">
+      <!-- Supplied Bank Logo near Top-Center with Gentle Floating/Glow Animation -->
+      <div class="cover-logo-frame">
+        <img
+          src="assets/bank-logo.png"
+          alt="Official logo of Al-Arafah Islami Bank Limited (aibl) featuring the green Islamic arch and golden-banded Kaaba motif"
+          class="cover-logo-img"
+        >
+      </div>
+
+      <span class="cover-kicker">Academic Field Visit Presentation</span>
+
+      <h1 class="cover-title">BEYOND THE COUNTER</h1>
+
+      <p class="cover-subtitle">
+        A Practical Study of Banking Operations, Customer Experience &amp; Credit Risk
+      </p>
+
+      <div class="cover-divider" aria-hidden="true"></div>
+
+      <!-- Structured Academic & Field Visit Metadata -->
+      <div class="cover-meta-grid" role="list" aria-label="Field Visit Context Details">
+        <div class="cover-meta-card" role="listitem">
+          <span class="cover-meta-label">Course</span>
+          <span class="cover-meta-value">Law and Practice of Banking</span>
+        </div>
+        <div class="cover-meta-card" role="listitem">
+          <span class="cover-meta-label">Institution &amp; Group</span>
+          <span class="cover-meta-value">Port City International University &bull; BBA Batch 32</span>
+        </div>
+        <div class="cover-meta-card" role="listitem">
+          <span class="cover-meta-label">Host Bank &amp; Branch</span>
+          <span class="cover-meta-value">Al-Arafah Islami Bank PLC &bull; Chowkbazar Branch</span>
+        </div>
+        <div class="cover-meta-card" role="listitem">
+          <span class="cover-meta-label">Branch Manager</span>
+          <span class="cover-meta-value">Engr. Abdullah Al Mahmud Asif (CDCS)</span>
+        </div>
+        <div class="cover-meta-card" role="listitem">
+          <span class="cover-meta-label">Designation</span>
+          <span class="cover-meta-value">Assistant Vice President &amp; Branch Manager</span>
+        </div>
+        <div class="cover-meta-card" role="listitem">
+          <span class="cover-meta-label">Visit Date</span>
+          <span class="cover-meta-value">27 October 2026</span>
+        </div>
+      </div>
+
+      <!-- Prominent Opening Action Button -->
+      <button type="button" id="lets-explore-btn" class="cover-cta-btn" aria-label="Let's Explore the Main Presentation">
+        <span>Let's Explore</span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       MAIN PRESENTATION SHELL (10vh Top Nav + 90vh Content Viewport)
+       ======================================================================== -->
+  <div id="presentation-app" class="presentation-shell" aria-hidden="true">
+
+    <!-- Top Navigation Bar (~10% Viewport Height) -->
+    <header class="top-navbar">
+      <button
+        type="button"
+        id="brand-cover-btn"
+        class="nav-brand"
+        title="Return to Presentation Cover Screen"
+        aria-label="Return to Cover Screen: Beyond the Counter"
+      >
+        <span class="nav-brand-logo-wrap">
+          <img
+            src="assets/bank-logo.png"
+            alt="Al-Arafah Islami Bank Logo"
+            class="nav-brand-logo"
+          >
+        </span>
+        <span class="nav-brand-text">
+          <span class="nav-brand-title">BEYOND THE COUNTER</span>
+          <span class="nav-brand-sub">AIBL Chowkbazar &bull; BBA Batch 32</span>
+        </span>
+      </button>
+
+      <!-- Ten Concise Clickable Navigation Tabs -->
+      <nav aria-label="Presentation Sections">
+        <div class="nav-tablist" role="tablist" aria-label="Field Visit Presentation Tabs">
+          <button type="button" role="tab" id="tab-layout" aria-controls="panel-layout" aria-selected="true" tabindex="0" class="nav-tab">
+            <span class="nav-tab-num">1</span><span>Layout</span>
+          </button>
+          <button type="button" role="tab" id="tab-products" aria-controls="panel-products" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">2</span><span>Products</span>
+          </button>
+          <button type="button" role="tab" id="tab-experience" aria-controls="panel-experience" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">3</span><span>Experience</span>
+          </button>
+          <button type="button" role="tab" id="tab-loan-case" aria-controls="panel-loan-case" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">4</span><span>Loan Case</span>
+          </button>
+          <button type="button" role="tab" id="tab-careers" aria-controls="panel-careers" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">5</span><span>Careers</span>
+          </button>
+          <button type="button" role="tab" id="tab-hospitality" aria-controls="panel-hospitality" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">6</span><span>Hospitality</span>
+          </button>
+          <button type="button" role="tab" id="tab-npl" aria-controls="panel-npl" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">7</span><span>NPL</span>
+          </button>
+          <button type="button" role="tab" id="tab-management" aria-controls="panel-management" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">8</span><span>Management</span>
+          </button>
+          <button type="button" role="tab" id="tab-notes" aria-controls="panel-notes" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">9</span><span>Notes</span>
+          </button>
+          <button type="button" role="tab" id="tab-contact" aria-controls="panel-contact" aria-selected="false" tabindex="-1" class="nav-tab">
+            <span class="nav-tab-num">10</span><span>Contact</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Presentation Slide Viewport (~90% Viewport Height) -->
+    <main id="slide-viewport" class="slide-viewport">
+
+      <!-- ====================================================================
+           TAB 1: BRANCH LAYOUT & OPERATIONAL SETUP
+           ==================================================================== -->
+      <section
+        id="panel-layout"
+        role="tabpanel"
+        aria-labelledby="tab-layout"
+        class="tab-panel is-active"
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 01 &bull; Physical Infrastructure &amp; Setup</span>
+            <h2 class="slide-title">Branch Layout &amp; Operational Setup</h2>
+            <p class="slide-subtitle">
+              Physical footprint, staffing strength, and operational configuration observed at Al-Arafah Islami Bank PLC, Chowkbazar Branch.
+            </p>
+          </div>
+          <span class="epistemic-badge">Field-Visit Observations (Not Independently Audited)</span>
+        </div>
+
+        <!-- Animated Metric Cards -->
+        <div class="grid-4">
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <span class="metric-label">Branch Established</span>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              August <span data-counter-target="2016" data-counter-nocomma="true">2016</span>
+            </div>
+            <p class="metric-note">Operational timeline at the Chowkbazar branch location as reported during the visit.</p>
+          </article>
+
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <span class="metric-label">Branch Levels</span>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="2">2</span> Floors
+            </div>
+            <p class="metric-note">Two-level branch premises housing customer counters, service desks, and management offices.</p>
+          </article>
+
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <span class="metric-label">Approximate Floor Area</span>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="3750">3,750</span> sq. ft.
+            </div>
+            <p class="metric-note">Approximate interior area reported during our academic tour of the premises.</p>
+          </article>
+
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <span class="metric-label">Branch Employees</span>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="19">19</span> Staff
+            </div>
+            <p class="metric-note">Total branch personnel across front-desk, general banking, cash, and investment desks.</p>
+          </article>
+        </div>
+
+        <div class="grid-3">
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <span class="metric-label">Security Personnel</span>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="5">5</span> Guards
+            </div>
+            <p class="metric-note">Dedicated security staff stationed for physical premise and vault/ATM safety.</p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <span class="metric-label">ATM Booths</span>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="2">2</span> Booths
+            </div>
+            <p class="metric-note">On-site automated teller terminals supporting customer cash withdrawals and card services.</p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <span class="metric-label">Banking System Architecture</span>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value" style="font-size: 1.35rem;">
+              Decentralized System
+            </div>
+            <p class="metric-note">Decentralized banking system, as reported during the visit.</p>
+          </article>
+        </div>
+
+        <!-- Structured Summary Table of Branch Observations -->
+        <div class="table-wrap">
+          <table class="data-table" aria-label="Branch Layout and Operational Setup Summary Table">
+            <thead>
+              <tr>
+                <th>Operational Indicator</th>
+                <th>Field-Visit Observation</th>
+                <th>Evidentiary Basis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Established</strong></td>
+                <td>August 2016</td>
+                <td>Reported during branch briefing</td>
+              </tr>
+              <tr>
+                <td><strong>Floors</strong></td>
+                <td>2</td>
+                <td>Direct observation &amp; briefing</td>
+              </tr>
+              <tr>
+                <td><strong>Approximate Floor Area</strong></td>
+                <td>3,750 sq. ft.</td>
+                <td>Reported during branch briefing</td>
+              </tr>
+              <tr>
+                <td><strong>Employees</strong></td>
+                <td>19</td>
+                <td>Reported during branch briefing</td>
+              </tr>
+              <tr>
+                <td><strong>Security Personnel</strong></td>
+                <td>5</td>
+                <td>Observed &amp; reported during visit</td>
+              </tr>
+              <tr>
+                <td><strong>ATM Booths</strong></td>
+                <td>2</td>
+                <td>Observed &amp; reported during visit</td>
+              </tr>
+              <tr>
+                <td><strong>Banking System</strong></td>
+                <td>Decentralized banking system, as reported during the visit</td>
+                <td>Reported during branch conversation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="notice-banner">
+          <strong>Academic Qualification:</strong> All indicators above represent student field-visit observations and figures verbally shared during the branch session on 27 October 2026 rather than independently audited corporate disclosures.
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 2: BANKING PRODUCTS & SERVICES
+           ==================================================================== -->
+      <section
+        id="panel-products"
+        role="tabpanel"
+        aria-labelledby="tab-products"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 02 &bull; Retail &amp; Investment Offerings</span>
+            <h2 class="slide-title">Banking Products &amp; Services</h2>
+            <p class="slide-subtitle">
+              Products and services discussed during the visit and documented via supplied branch brochures.
+            </p>
+          </div>
+          <span class="epistemic-badge badge-warning">Distinguishes Brochure Evidence vs. Visit Notes</span>
+        </div>
+
+        <!-- Product Comparison Table -->
+        <div class="table-wrap">
+          <table class="data-table" aria-label="Banking Products and Services Comparison">
+            <thead>
+              <tr>
+                <th>Product / Service</th>
+                <th>Target Segment</th>
+                <th>Observed / Discussed Highlights</th>
+                <th>Verification &amp; Documentation Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Dual-Currency Services</strong></td>
+                <td>Residents &amp; Non-Residents</td>
+                <td>
+                  Discussed as available for both resident and non-resident account/card holders. Additionally, the supplied Mudaraba Youth Saver brochure documents a free Dual-Currency Debit Card for the first year (with a 50% renewal fee discount).
+                </td>
+                <td>Discussed during visit &amp; partially documented on Youth Saver brochure; subject to Bangladesh Bank foreign exchange rules.</td>
+              </tr>
+              <tr>
+                <td><strong>An-Nisa</strong></td>
+                <td>Women-Focused Banking Segment</td>
+                <td>
+                  Presented during the visit as a women-focused banking service. Field visit notes mention a <strong>4–5% figure</strong> in connection with An-Nisa; however, its exact meaning and applicability (whether a weightage, promotional parameter, or provisional figure) are unverified.
+                </td>
+                <td>
+                  <strong>Requires Verification:</strong> Exact product classification, eligibility rules, and the meaning of the 4–5% note must not be treated as an established profit or interest rate without official bank confirmation.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Entrepreneur Financing</strong></td>
+                <td>Small &amp; Emerging Entrepreneurs</td>
+                <td>
+                  Financing support discussed for business and entrepreneurial initiatives operating under Shariah-compliant investment modes.
+                </td>
+                <td>Discussed during visit; subject to applicable bank eligibility criteria, trade licensing, and credit appraisal.</td>
+              </tr>
+              <tr>
+                <td><strong>Mudaraba Youth Saver Account</strong><br><span style="font-size:0.8rem;color:var(--color-text-muted);">(মুদারাবা ইয়ুথসেভার অ্যাকাউন্ট)</span></td>
+                <td>Youth &amp; University Students (Bangladeshi citizens aged 18–25)</td>
+                <td>
+                  Shariah-based Mudaraba savings account designed for the young generation: no minimum balance requirement, daily profit calculation with six-monthly payout, free first 10-leaf cheque book, free account maintenance &amp; online fund transfer, <strong>20% discount on Student File</strong>, free 1st-year Dual-Currency Debit Card (50% off renewal), and free AIB i-Banking / Islamic Wallet.
+                </td>
+                <td><strong>Verified via Supplied Brochure:</strong> Directly supported by the two supplied brochure photographs below.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Supplied Brochure Image Gallery for Mudaraba Youth Saver Account -->
+        <div class="grid-2">
+          <div class="photo-card">
+            <div class="photo-frame tall-brochure">
+              <img
+                src="assets/youth-saver-1.jpg"
+                alt="Front cover of the Mudaraba Youth Saver Account brochure from Al-Arafah Islami Bank PLC"
+              >
+            </div>
+            <div class="card-header-row">
+              <p class="photo-caption">
+                <strong>Brochure Cover (Supplied Asset 1):</strong> <em>“মুদারাবা ইয়ুথসেভার অ্যাকাউন্ট — সঞ্চয় হোক সমৃদ্ধ আগামীর জন্য”</em> (Mudaraba Youth Saver Account: Let savings be for a prosperous future).
+              </p>
+              <button
+                type="button"
+                class="photo-enlarge-btn"
+                data-lightbox-src="assets/youth-saver-1.jpg"
+                data-lightbox-title="Mudaraba Youth Saver Account — Brochure Cover"
+                data-lightbox-caption="Supplied brochure front cover from Al-Arafah Islami Bank PLC highlighting the student- and youth-oriented Mudaraba Youth Saver Account."
+                data-lightbox-alt="Enlarged view of Mudaraba Youth Saver Account brochure front cover"
+              >
+                Enlarge Image
+              </button>
+            </div>
+          </div>
+
+          <div class="photo-card">
+            <div class="photo-frame tall-brochure">
+              <img
+                src="assets/youth-saver-2.jpg"
+                alt="Back page of the Mudaraba Youth Saver Account brochure listing special features, other benefits, and eligibility for Bangladeshi citizens aged 18 to 25"
+              >
+            </div>
+            <div class="card-header-row">
+              <p class="photo-caption">
+                <strong>Brochure Features &amp; Eligibility (Supplied Asset 2):</strong> Lists special features (no minimum balance, daily profit calculation, 20% Student File discount, dual-currency card) and eligibility (ages 18–25).
+              </p>
+              <button
+                type="button"
+                class="photo-enlarge-btn"
+                data-lightbox-src="assets/youth-saver-2.jpg"
+                data-lightbox-title="Mudaraba Youth Saver Account — Official Brochure Specifications"
+                data-lightbox-caption="Supplied brochure page detailing features, digital banking access (Islamic Wallet, AIB i-Banking), eligibility (Bangladeshi citizens aged 18–25), and official helpline 16434."
+                data-lightbox-alt="Enlarged view of Mudaraba Youth Saver Account brochure features and eligibility page"
+              >
+                Enlarge Image
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 3: CUSTOMER EXPERIENCE & SERVICE DELIVERY
+           ==================================================================== -->
+      <section
+        id="panel-experience"
+        role="tabpanel"
+        aria-labelledby="tab-experience"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 03 &bull; Front-Line Service Observations</span>
+            <h2 class="slide-title">Customer Experience &amp; Service Delivery</h2>
+            <p class="slide-subtitle">
+              Observed customer footfall patterns, queue positioning, and service environment during our branch visit.
+            </p>
+          </div>
+          <span class="epistemic-badge">Observations &amp; Improvement Opportunities</span>
+        </div>
+
+        <!-- Customer Volume & Queue Counters -->
+        <div class="grid-4">
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <span class="metric-label">Regular Daily Footfall</span>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              ~<span data-counter-target="100">100</span> / day
+            </div>
+            <p class="metric-note">Approximate regular customer volume per working day reported during the visit.</p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <span class="metric-label">Reported Busier Days</span>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value" style="font-size: 1.38rem;">
+              Sunday &amp; Thursday
+            </div>
+            <p class="metric-note">First and last working days of the Bangladesh banking week experience peak customer traffic.</p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <span class="metric-label">Peak-Day Customer Volume</span>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="130">130</span>&ndash;<span data-counter-target="150">150</span>
+            </div>
+            <p class="metric-note">Approximate daily customer count reported on busier days (Sunday and Thursday).</p>
+          </article>
+
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <span class="metric-label">Queues Observed</span>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="2">2</span> Queues
+            </div>
+            <p class="metric-note">Two customer queues were observed, including one positioned toward a corner that appeared insufficiently convenient.</p>
+          </article>
+        </div>
+
+        <!-- Three Required Customer-Experience Dimensions -->
+        <div class="grid-3">
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">1. Service Efficiency</h3>
+              <span class="epistemic-badge">Dimension 1</span>
+            </div>
+            <p>
+              <strong>Observation:</strong> Service speed varied across departments during the visit.
+            </p>
+            <p class="metric-note">
+              Routine counter inquiries and cash transactions moved at a different pace compared to documentation-intensive general banking and investment desks.
+            </p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">2. Queue Management</h3>
+              <span class="epistemic-badge badge-warning">Dimension 2</span>
+            </div>
+            <p>
+              <strong>Observation:</strong> The observed queue arrangement may benefit from improved accessibility and visibility.
+            </p>
+            <p class="metric-note">
+              Of the two queues observed, one was positioned toward a corner that appeared insufficiently convenient for approaching customers. Clearer floor signage or queue realignment could enhance flow.
+            </p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">3. Customer Comfort</h3>
+              <span class="epistemic-badge badge-warning">Dimension 3</span>
+            </div>
+            <p>
+              <strong>Observation:</strong> Seating capacity and arrangement may warrant review.
+            </p>
+            <p class="metric-note">
+              Seating arrangements appeared inadequate for the observed customer volume-particularly considering peak days when footfall reaches 130–150 visitors.
+            </p>
+          </article>
+        </div>
+
+        <div class="notice-banner">
+          <strong>Methodological Note:</strong> These points represent qualitative observations recorded during a single academic visit and constructive improvement opportunities, not definitive or bank-wide service performance assessments.
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 4: PRACTICAL LOAN CASE STUDY
+           ==================================================================== -->
+      <section
+        id="panel-loan-case"
+        role="tabpanel"
+        aria-labelledby="tab-loan-case"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 04 &bull; Credit &amp; Investment Appraisal in Practice</span>
+            <h2 class="slide-title">Practical Loan Case Study</h2>
+            <p class="slide-subtitle">
+              Sequential breakdown of a real-world property development financing inquiry discussed during our branch visit.
+            </p>
+          </div>
+          <div class="case-controls-bar">
+            <span class="epistemic-badge badge-warning">Reported Educational Case Discussion</span>
+            <button type="button" id="replay-loan-case-btn" class="btn-secondary" aria-label="Replay Sequential Case Timeline Animation">
+              Replay Step-by-Step Sequence
+            </button>
+          </div>
+        </div>
+
+        <!-- 5-Stage Connected Sequential Timeline -->
+        <div class="loan-timeline" aria-label="Five stages of the reported loan case discussion">
+          <!-- Stage 1 -->
+          <article class="loan-stage-card is-revealed">
+            <span class="stage-step-pill">Stage 01</span>
+            <h3 class="metric-label">Customer Request</h3>
+            <div class="metric-value">
+              BDT <span data-counter-target="1">1</span> Crore
+            </div>
+            <p class="metric-note">
+              Equivalent to <strong>BDT <span data-counter-target="100">100</span> Lakh</strong>. A customer reportedly approached the branch manager seeking financing of BDT 1 crore.
+            </p>
+          </article>
+
+          <!-- Stage 2 -->
+          <article class="loan-stage-card is-revealed">
+            <span class="stage-step-pill">Stage 02</span>
+            <h3 class="metric-label">Purpose</h3>
+            <div class="metric-value" style="font-size: 1.25rem;">
+              Property Development
+            </div>
+            <p class="metric-note">
+              Development of an existing property. The customer was described as owning land with an existing three- to four-storey building.
+            </p>
+          </article>
+
+          <!-- Stage 3 -->
+          <article class="loan-stage-card is-revealed">
+            <span class="stage-step-pill">Stage 03</span>
+            <h3 class="metric-label">Reported Security Discussion</h3>
+            <div class="metric-value" style="font-size: 1.25rem;">
+              Land &amp; Mortgage
+            </div>
+            <p class="metric-note">
+              The discussion reportedly included original land documents in connection with mortgage-related security.
+            </p>
+          </article>
+
+          <!-- Stage 4 -->
+          <article class="loan-stage-card stage-highlight is-revealed">
+            <span class="stage-step-pill">Stage 04</span>
+            <h3 class="metric-label">Figure Discussed</h3>
+            <div class="metric-value">
+              BDT <span data-counter-target="40">40</span> Lakh
+            </div>
+            <p class="metric-note">
+              Reportedly mentioned as the highest range discussed in that particular conversation.
+            </p>
+          </article>
+
+          <!-- Stage 5 -->
+          <article class="loan-stage-card stage-gap is-revealed">
+            <span class="stage-step-pill">Stage 05</span>
+            <h3 class="metric-label">Difference</h3>
+            <div class="metric-value" style="color: var(--color-risk);">
+              BDT <span data-counter-target="60">60</span> Lakh
+            </div>
+            <p class="metric-note">
+              Difference between the customer's requested amount (BDT 1 crore / 100 lakh) and the figure discussed (BDT 40 lakh).
+            </p>
+          </article>
+        </div>
+
+        <!-- Academic Integrity Disclaimer & Learning Point Cards -->
+        <div class="grid-2">
+          <article class="card card-risk-top">
+            <h3 class="metric-label" style="font-size: 1.05rem;">Scope &amp; Academic Integrity Notice</h3>
+            <p>
+              This sequence illustrates a <strong>reported educational case discussion</strong> shared during our academic visit. It is <strong>not</strong> a confirmed loan approval, formal rejection, or universal branch lending ceiling.
+            </p>
+            <p class="metric-note">
+              No final credit decision by the bank is inferred, and no customer-identifying information was disclosed or recorded.
+            </p>
+          </article>
+
+          <article class="card card-accent-top">
+            <h3 class="metric-label" style="font-size: 1.05rem;">Key Banking Learning Point: Why Requested &amp; Discussed Amounts Differ</h3>
+            <p>
+              In practical banking, a customer's requested financing amount is evaluated against multiple risk and regulatory safeguards:
+            </p>
+            <ul style="padding-left: 1.2rem; font-size: 0.86rem; color: var(--color-text-body); display: grid; gap: 0.25rem;">
+              <li><strong>Collateral Assessment:</strong> Independent valuation, forced-sale value margins, and marketability of the mortgaged land and building.</li>
+              <li><strong>Documentation Integrity:</strong> Verification of original title deeds, updated land mutation (Namjari), and encumbrance-free ownership records.</li>
+              <li><strong>Creditworthiness &amp; Purpose:</strong> Repayment capacity, project cash-flow viability, and alignment with applicable credit policies.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 5: CAREERS, WORKPLACE CULTURE & EMPLOYEE OBSERVATIONS
+           ==================================================================== -->
+      <section
+        id="panel-careers"
+        role="tabpanel"
+        aria-labelledby="tab-careers"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 05 &bull; Human Resources &amp; Organizational Culture</span>
+            <h2 class="slide-title">Careers, Workplace Culture &amp; Employee Observations</h2>
+            <p class="slide-subtitle">
+              Observations on internship opportunities, employee support, teamwork, and workplace identification practices.
+            </p>
+          </div>
+          <span class="epistemic-badge">Branch-Level Snapshot Observations</span>
+        </div>
+
+        <!-- Four Required Organizational Dimensions -->
+        <div class="grid-2">
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">1. Workplace Practices &amp; Internships</h3>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+              </span>
+            </div>
+            <div class="metric-value">
+              <span data-counter-target="5">5</span> Interns Present
+            </div>
+            <p>
+              Five interns were reportedly present at the branch during the visit, indicating active practical learning exposure for university students transitioning into banking careers.
+            </p>
+          </article>
+
+          <article class="card card-accent-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">2. Employee Support</h3>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </span>
+            </div>
+            <p>
+              <strong>Leave Facilities:</strong> Employee leave provisions were discussed or noted during the visit session.
+            </p>
+            <p class="metric-note">
+              <strong>Compensation Impression (Qualified):</strong> The visiting student group reported a generally satisfactory impression of the salary structure based on conversation; however, this is an informal impression and <em>not</em> an independently verified compensation assessment.
+            </p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">3. Teamwork &amp; Responsibility</h3>
+              <span class="icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </span>
+            </div>
+            <p>
+              <strong>Collaborative Coverage:</strong> Employees appeared willing to share responsibilities during emergencies or high-pressure periods so that essential desk operations continue without disruption.
+            </p>
+            <p class="metric-note">
+              Demonstrates informal peer coordination within a 19-person branch team.
+            </p>
+          </article>
+
+          <article class="card card-gold-top">
+            <div class="card-header-row">
+              <h3 class="metric-label" style="font-size: 1.05rem;">4. Professional Identification</h3>
+              <span class="icon-box gold" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><line x1="15" y1="8" x2="17" y2="8"/><line x1="15" y1="12" x2="17" y2="12"/><path d="M7 16h10"/>
+                </svg>
+              </span>
+            </div>
+            <p>
+              <strong>Visual Identification Observations:</strong>
+            </p>
+            <ul style="padding-left: 1.2rem; font-size: 0.9rem; display: grid; gap: 0.3rem;">
+              <li>Employee ID cards were not visibly worn by the employees observed during the visit.</li>
+              <li>Name tags were not visibly displayed on desks.</li>
+            </ul>
+            <p class="metric-note">
+              Noted neutrally as an observation during the visit timeframe rather than a generalization about bank-wide policy.
+            </p>
+          </article>
+        </div>
+
+        <!-- Career Learning Panel -->
+        <article class="card" style="background: var(--color-secondary-soft); border-color: var(--color-border-strong);">
+          <h3 class="metric-label" style="font-size: 1.05rem; color: var(--color-primary);">
+            Career Learning Panel: HR Operations &amp; Service Continuity Lessons
+          </h3>
+          <div class="grid-3" style="margin-top: 0.25rem;">
+            <div>
+              <strong style="font-size: 0.86rem; color: var(--color-primary);">HR &amp; Leave Administration</strong>
+              <p class="metric-note">Structured internship supervision and planned leave administration help develop future bankers while preserving daily staffing ratios.</p>
+            </div>
+            <div>
+              <strong style="font-size: 0.86rem; color: var(--color-primary);">Workplace Coordination &amp; Continuity</strong>
+              <p class="metric-note">Cross-training officers to share duties during emergencies ensures uninterrupted customer service at critical counters.</p>
+            </div>
+            <div>
+              <strong style="font-size: 0.86rem; color: var(--color-primary);">Employee Identification Standards</strong>
+              <p class="metric-note">Visible ID lanyards and desk nameplates strengthen customer confidence, accountability, and ease of communication for first-time visitors.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- ====================================================================
+           TAB 6: HOSPITALITY & PROFESSIONAL COURTESY
+           ==================================================================== -->
+      <section
+        id="panel-hospitality"
+        role="tabpanel"
+        aria-labelledby="tab-hospitality"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 06 &bull; Professional Etiquette &amp; Visitor Experience</span>
+            <h2 class="slide-title">HOSPITALITY &amp; PROFESSIONAL COURTESY</h2>
+            <p class="slide-subtitle">
+              Small gestures that make a professional visit welcoming.
+            </p>
+          </div>
+          <span class="epistemic-badge">Authentic Visit Documentation</span>
+        </div>
+
+        <!-- Clean Two-Column Layout on Desktop, Responsive Stacked on Smaller Screens -->
+        <div class="grid-2 hospitality-reveal">
+          <!-- Column 1: Supplied Tea & Refreshment Photograph Gallery -->
+          <div class="photo-card">
+            <div class="photo-frame" style="padding: 0.75rem;">
+              <img
+                src="assets/hospitality-tea-1.jpg"
+                alt="Supplied photograph of tea in AIBL-branded ceramic cups and biscuits served on the desk alongside an Islamic banking Shariah principles book and the Mudaraba Youth Saver brochure"
+                style="max-height: 410px;"
+              >
+            </div>
+            <div class="card-header-row">
+              <p class="photo-caption">
+                <strong>Field-Visit Refreshments (`assets/hospitality-tea-1.jpg`):</strong> Tea served in official <em>aibl</em>-crested cups and saucers with biscuits, placed alongside the bank's <em>Islami Banking: Shariah Principles</em> book and <em>Mudaraba Youth Saver Account</em> brochure during our session.
+              </p>
+              <button
+                type="button"
+                class="photo-enlarge-btn"
+                data-lightbox-src="assets/hospitality-tea-1.jpg"
+                data-lightbox-title="Hospitality & Refreshments During Academic Visit"
+                data-lightbox-caption="Authentic photograph taken during our visit on 27 October 2026 showing tea and refreshments served in AIBL-branded tableware alongside banking reference materials."
+                data-lightbox-alt="Enlarged view of tea and refreshments served during the branch visit"
+              >
+                Enlarge Image
+              </button>
+            </div>
+          </div>
+
+          <!-- Column 2: Reflection Quote, Three Supporting Points & Educational Insight Card -->
+          <div style="display: flex; flex-direction: column; gap: 0.9rem;">
+            <article class="card card-accent-top">
+              <h3 class="metric-label" style="font-size: 1.08rem;">A Welcoming Visit</h3>
+              <blockquote class="hospitality-quote">
+                &ldquo;We appreciated the hospitality and refreshments offered during our academic visit to Al-Arafah Islami Bank PLC, Chowkbazar Branch. These thoughtful gestures helped create a welcoming atmosphere for our interaction and learning experience.&rdquo;
+              </blockquote>
+
+              <div style="display: grid; gap: 0.55rem; margin-top: 0.35rem;">
+                <div style="padding: 0.55rem 0.75rem; background: var(--color-bg-elevated); border-radius: var(--radius-sm); border-left: 3px solid var(--color-secondary);">
+                  <strong style="color: var(--color-text-heading); font-size: 0.9rem;">Warm Welcome:</strong>
+                  <span style="font-size: 0.88rem;"> A welcoming atmosphere for visiting students.</span>
+                </div>
+                <div style="padding: 0.55rem 0.75rem; background: var(--color-bg-elevated); border-radius: var(--radius-sm); border-left: 3px solid var(--color-accent);">
+                  <strong style="color: var(--color-text-heading); font-size: 0.9rem;">Professional Courtesy:</strong>
+                  <span style="font-size: 0.88rem;"> An opportunity to experience workplace etiquette in a real banking environment.</span>
+                </div>
+                <div style="padding: 0.55rem 0.75rem; background: var(--color-bg-elevated); border-radius: var(--radius-sm); border-left: 3px solid var(--color-primary);">
+                  <strong style="color: var(--color-text-heading); font-size: 0.9rem;">Learning Beyond the Classroom:</strong>
+                  <span style="font-size: 0.88rem;"> A practical visit combining operational observations with professional interaction.</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Required Educational Insight Card -->
+            <article class="card card-gold-top">
+              <h3 class="metric-label" style="font-size: 1.02rem;">Why Hospitality Matters in Service Organizations</h3>
+              <p style="font-size: 0.88rem;">
+                In relationship-driven service organizations such as banks, professional courtesy and attentive hosting contribute to a positive visitor experience, foster open dialogue and relationship-building, and shape constructive perceptions of organizational culture.
+              </p>
+              <p class="metric-note">
+                <strong>Contextual Qualification:</strong> The photograph and reflections above illustrate the hospitality extended to our student group during this particular academic visit; they are presented as an appreciative record of our visit experience rather than proof of overall customer satisfaction or formal bank-wide service standards.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 7: MAJOR BANKING CHALLENGE — NON-PERFORMING LOANS (NPL)
+           ==================================================================== -->
+      <section
+        id="panel-npl"
+        role="tabpanel"
+        aria-labelledby="tab-npl"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 07 &bull; Credit Risk &amp; Asset Quality Challenge</span>
+            <h2 class="slide-title">Major Banking Challenge &mdash; Non-Performing Loans (NPLs)</h2>
+            <p class="slide-subtitle">
+              Understanding why Non-Performing Loans represent a primary challenge identified during our branch visit.
+            </p>
+          </div>
+          <span class="epistemic-badge badge-risk">Visit Topic + General Banking Framework</span>
+        </div>
+
+        <!-- Prominent Animated Warning / Risk Banner -->
+        <div class="npl-hero-banner" role="region" aria-label="Non-Performing Loan Risk Highlight">
+          <div class="npl-warning-icon-wrap" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 1.08rem; color: var(--color-risk-dark); font-weight: 700;">
+              Primary Operational Risk Identified During Visit: Non-Performing Loans (NPLs)
+            </h3>
+            <p style="font-size: 0.88rem; color: var(--color-text-body);">
+              During our field discussion, managing Non-Performing Loans (classified investments/loans) was highlighted as a major challenge in banking. No branch-specific NPL ratio, default figure, or internal recovery metric was disclosed or invented here; the cards below pair that visit observation with established banking risk principles.
+            </p>
+          </div>
+        </div>
+
+        <!-- Four Analytical Cards -->
+        <div class="grid-2">
+          <article class="card card-risk-top">
+            <h3 class="metric-label" style="font-size: 1.05rem;">1. What Is a Non-Performing Loan (NPL)?</h3>
+            <p style="font-size: 0.9rem;">
+              In banking practice, a <strong>Non-Performing Loan (NPL)</strong> (or classified investment in Islamic banking) refers to a credit or financing facility in which the borrower has failed to pay scheduled principal installments or profit/interest obligations for a specified regulatory period (commonly 90 days or more, subject to central bank classification guidelines such as Substandard, Doubtful, and Bad/Loss categories).
+            </p>
+          </article>
+
+          <article class="card card-risk-top">
+            <h3 class="metric-label" style="font-size: 1.05rem;">2. Why NPLs Matter for Banks</h3>
+            <p style="font-size: 0.9rem;">
+              Banks operate as financial intermediaries using depositors' funds. When loans or investments cease performing, the bank not only loses expected return streams but must also set aside capital reserves (loan-loss provisions) from its operating income to absorb potential write-offs—directly testing institutional resilience and depositor confidence.
+            </p>
+          </article>
+
+          <article class="card card-gold-top">
+            <h3 class="metric-label" style="font-size: 1.05rem;">3. Potential Consequences Across Four Pillars</h3>
+            <ul style="padding-left: 1.2rem; font-size: 0.88rem; display: grid; gap: 0.35rem;">
+              <li><strong>Asset Quality:</strong> High NPLs degrade the health of the bank's financing portfolio and increase risk-weighted assets.</li>
+              <li><strong>Profitability:</strong> Mandatory provisioning expenses and suspended profit/income recognition compress net earnings.</li>
+              <li><strong>Liquidity:</strong> Delayed principal repayments lock up cash inflows needed for routine operations and depositor withdrawals.</li>
+              <li><strong>Lending Capacity:</strong> Tied-up capital and higher capital adequacy pressure restrict the bank's capacity to extend fresh financing to creditworthy businesses.</li>
+            </ul>
+          </article>
+
+          <article class="card card-accent-top">
+            <h3 class="metric-label" style="font-size: 1.05rem;">4. Credit Risk Management &amp; Recovery Pillars</h3>
+            <ul style="padding-left: 1.2rem; font-size: 0.88rem; display: grid; gap: 0.35rem;">
+              <li><strong>Rigorous Credit Appraisal:</strong> Thorough pre-sanction evaluation of borrower character, cash flows, CIB report, and genuine collateral valuation (as observed in the Tab 4 Loan Case).</li>
+              <li><strong>Borrower Monitoring:</strong> Continuous post-disbursement supervision to ensure funds are utilized for the approved purpose.</li>
+              <li><strong>Repayment Discipline:</strong> Early-warning reminders, structured installment tracking, and relationship engagement before accounts slip into overdue status.</li>
+              <li><strong>Recovery Procedures:</strong> Lawful negotiation, compliant rescheduling where justified, and legal enforcement against mortgaged security when necessary.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 8: MANAGEMENT INSIGHTS & VISIT DOCUMENTATION
+           ==================================================================== -->
+      <section
+        id="panel-management"
+        role="tabpanel"
+        aria-labelledby="tab-management"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 08 &bull; Leadership &amp; Photographic Evidence</span>
+            <h2 class="slide-title">Management Insights &amp; Visit Documentation</h2>
+            <p class="slide-subtitle">
+              Official branch leadership credentials and group documentation from our visit to Chowkbazar Branch.
+            </p>
+          </div>
+          <span class="epistemic-badge">Verified from Supplied Visiting Card &amp; Group Photo</span>
+        </div>
+
+        <div class="grid-2">
+          <!-- Left Column: Visiting Card Frame + Verified Manager Table -->
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div class="photo-card">
+              <div class="photo-frame">
+                <img
+                  src="assets/manager-card.jpg"
+                  alt="Visiting card of Engr. Abdullah Al Mahmud Asif CDCS, Assistant Vice President and Branch Manager of Al-Arafah Islami Bank PLC Chawkbazar Branch"
+                  style="max-height: 240px;"
+                >
+              </div>
+              <div class="card-header-row">
+                <p class="photo-caption">
+                  <strong>Branch Manager's Visiting Card (`assets/manager-card.jpg`):</strong> Official business card supplied during the visit.
+                </p>
+                <button
+                  type="button"
+                  class="photo-enlarge-btn"
+                  data-lightbox-src="assets/manager-card.jpg"
+                  data-lightbox-title="Branch Manager's Official Visiting Card"
+                  data-lightbox-caption="Engr. Abdullah Al Mahmud Asif CDCS, Assistant Vice President & Branch Manager, Al-Arafah Islami Bank PLC, Chawkbazar Branch, Chattogram."
+                  data-lightbox-alt="Enlarged view of the Branch Manager's official visiting card"
+                >
+                  Enlarge Image
+                </button>
+              </div>
+            </div>
+
+            <!-- Compact Verified Information Table -->
+            <div class="table-wrap">
+              <table class="data-table" aria-label="Branch Manager Verified Information">
+                <thead>
+                  <tr>
+                    <th>Field</th>
+                    <th>Verified Detail (Supplied &amp; Legible on Card)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Name</strong></td>
+                    <td>Engr. Abdullah Al Mahmud Asif</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Qualification / Designation Detail</strong></td>
+                    <td>CDCS</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Position</strong></td>
+                    <td>Assistant Vice President &amp; Branch Manager</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Branch</strong></td>
+                    <td>Chowkbazar Branch (printed as <em>Chawkbazar Branch</em> on card)</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Bank</strong></td>
+                    <td>Al-Arafah Islami Bank PLC (আল-আরাফাহ্ ইসলামী ব্যাংক পিএলসি.)</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Branch Address (Legible on Card)</strong></td>
+                    <td>Shahjada Market, (1st Floor), Holding # 168, Guljar Circle, College Road, Chattogram</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right Column: Group Photograph in Larger Presentation Frame -->
+          <div class="photo-card" style="justify-content: space-between;">
+            <div class="photo-frame" style="flex: 1; min-height: 360px; padding: 0.75rem;">
+              <img
+                src="assets/group-photo.jpg"
+                alt="Group photograph of Port City International University BBA Batch 32 students standing with Branch Manager Engr. Abdullah Al Mahmud Asif inside the Chowkbazar Branch manager's office"
+                style="max-height: 440px;"
+              >
+            </div>
+            <div class="card-header-row">
+              <p class="photo-caption">
+                <strong>Field-Visit Group Photograph (`assets/group-photo.jpg`):</strong> BBA Batch 32 student representatives (Port City International University) with Branch Manager Engr. Abdullah Al Mahmud Asif (CDCS) in his office at Al-Arafah Islami Bank PLC, Chowkbazar Branch.
+              </p>
+              <button
+                type="button"
+                class="photo-enlarge-btn"
+                data-lightbox-src="assets/group-photo.jpg"
+                data-lightbox-title="Academic Field Visit Group Photograph"
+                data-lightbox-caption="Port CityInternational University BBA Batch 32 students with Engr. Abdullah Al Mahmud Asif (CDCS), AVP & Branch Manager, at Al-Arafah Islami Bank PLC, Chowkbazar Branch (27 October 2026)."
+                data-lightbox-alt="Enlarged view of the field visit group photograph with the Branch Manager"
+              >
+                Enlarge Image
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 9: MANAGER'S NOTE & BANKING TERMINOLOGY
+           ==================================================================== -->
+      <section
+        id="panel-notes"
+        role="tabpanel"
+        aria-labelledby="tab-notes"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 09 &bull; Primary Manuscript &amp; Key Concepts</span>
+            <h2 class="slide-title">Manager's Note &amp; Banking Terminology</h2>
+            <p class="slide-subtitle">
+              Part A: Verbatim transcription of the Branch Manager's handwritten note &bull; Part B: Banking terms identified for further study.
+            </p>
+          </div>
+          <span class="epistemic-badge">Verbatim Transcription &amp; Qualified Glossary</span>
+        </div>
+
+        <!-- Part A: Manager's Handwritten Note -->
+        <div class="grid-2">
+          <div class="photo-card">
+            <div class="photo-frame note-frame">
+              <img
+                src="assets/manager-note.jpg"
+                alt="Handwritten note signed and dated 27/10/26 by the Branch Manager encouraging students to stay updated with the Bangladesh Bank website and newspaper articles"
+              >
+            </div>
+            <div class="card-header-row">
+              <p class="photo-caption">
+                <strong>Original Handwritten Note (`assets/manager-note.jpg`):</strong> Written and signed on <code>27/10/26</code> during our branch visit.
+              </p>
+              <button
+                type="button"
+                class="photo-enlarge-btn"
+                data-lightbox-src="assets/manager-note.jpg"
+                data-lightbox-title="Manager's Handwritten Note (27/10/26)"
+                data-lightbox-caption="Original handwritten note by the Branch Manager dated 27/10/26 advising students to follow the Bangladesh Bank website and newspaper articles."
+                data-lightbox-alt="Enlarged view of the Branch Manager's handwritten note"
+              >
+                Enlarge Image
+              </button>
+            </div>
+          </div>
+
+          <div class="card card-gold-top" style="justify-content: center;">
+            <span class="stage-step-pill">Part A &bull; Verbatim Transcription</span>
+            <h3 class="metric-label" style="font-size: 1.05rem;">Transcription of the Manager's Handwritten Note</h3>
+            <div class="transcription-box">
+              <p class="transcription-quote">
+                &ldquo;It is very much appreciatable for your initiative to gather Knowledge about banking in the middle of your graduation. To keep updated with latest rules &amp; practices, please keep in touch with Bangladesh bank website and newspaper's article &amp; news.&rdquo;
+              </p>
+              <p class="metric-note" style="margin-top: 0.35rem;">
+                <strong>Signature &amp; Date on Note:</strong> Signed <em>Asif</em>, dated <code>27/10/26</code>.
+              </p>
+            </div>
+            <p class="metric-note">
+              <strong>Editorial Fidelity Note:</strong> Transcribed strictly from the legible handwriting without rewriting. In line 1, a brief false start (<code>inita</code>) is crossed out by the writer before <em>“initiative”</em>; in line 4, the word <code>newspaper</code> is crossed out before <em>“Bangladesh bank website”</em>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Part B: Banking Terminology to Learn -->
+        <div class="card card-accent-top">
+          <div class="card-header-row" style="flex-wrap: wrap;">
+            <div>
+              <span class="stage-step-pill">Part B &bull; Further Learning</span>
+              <h3 class="metric-label" style="font-size: 1.1rem; margin-top: 0.2rem;">Banking Terminology to Learn</h3>
+            </div>
+            <span class="epistemic-badge badge-warning">Subject to Course &amp; Bank Confirmation</span>
+          </div>
+
+          <div class="grid-3" style="margin-top: 0.35rem;">
+            <!-- Term 1: Bank Correspondence -->
+            <div class="card" style="background: var(--color-bg-elevated);">
+              <h4 class="metric-label">1. Bank Correspondence</h4>
+              <p style="font-size: 0.85rem;">
+                <strong>Explanation:</strong> Formal written or electronic communication exchanged between a bank and its customers, other banks, or regulatory authorities (e.g., official letters, notices, sanction letters, and circulars).
+              </p>
+              <p class="metric-note">
+                <strong>Practical Example:</strong> Issuing an official financing sanction letter or collateral documentation notice to a client.
+              </p>
+            </div>
+
+            <!-- Term 2: SOD Loan -->
+            <div class="card" style="background: var(--color-bg-elevated);">
+              <h4 class="metric-label">2. SOD Loan</h4>
+              <p style="font-size: 0.85rem;">
+                <strong>Explanation:</strong> Commonly stands for <strong>Secured Overdraft</strong> in the Bangladesh banking context—a credit facility secured against liquid financial collateral (such as term deposits or savings instruments) or work orders. Exact product structure and Shariah mode depend on the bank.
+              </p>
+              <p class="metric-note">
+                <strong>Practical Example:</strong> A business drawing short-term working funds against a pledged Mudaraba term deposit receipt.
+              </p>
+            </div>
+
+            <!-- Term 3: Mutation -->
+            <div class="card" style="background: var(--color-bg-elevated);">
+              <h4 class="metric-label">3. Mutation</h4>
+              <p style="font-size: 0.85rem;">
+                <strong>Explanation:</strong> In the property collateral context, <strong>Land-Record Mutation (Namjari)</strong> is the official legal updating of government land revenue records (Khatian) to register the current owner's name after a transfer or inheritance.
+              </p>
+              <p class="metric-note">
+                <strong>Practical Example:</strong> Verifying an updated mutation khatian alongside original title deeds before accepting land as mortgage security.
+              </p>
+            </div>
+
+            <!-- Term 4: CAV Systems -->
+            <div class="card" style="background: var(--color-accent-soft); border-color: #F3D078;">
+              <h4 class="metric-label">4. CAV Systems</h4>
+              <p style="font-size: 0.85rem;">
+                <strong>Status &mdash; Confirmation Required:</strong> Recorded in the student field-visit notes. Because the exact expansion of the acronym <em>“CAV”</em> in this branch's operational context is not confirmed in the supplied materials, no expansion is guessed here.
+              </p>
+              <p class="metric-note">
+                <strong>Next Step:</strong> Requires confirmation from the Chowkbazar Branch officers or course instructor.
+              </p>
+            </div>
+
+            <!-- Term 5: STD -->
+            <div class="card" style="background: var(--color-accent-soft); border-color: #F3D078;">
+              <h4 class="metric-label">5. STD</h4>
+              <p style="font-size: 0.85rem;">
+                <strong>Status &mdash; Confirmation Required:</strong> In Bangladesh banking, <em>STD</em> commonly refers to a <strong>Short Term Deposit</strong> account (or Special Notice Deposit / SND), though it can carry other meanings depending on context.
+              </p>
+              <p class="metric-note">
+                <strong>Next Step:</strong> Marked for confirmation against the branch's specific Shariah account terminology and course notes.
+              </p>
+            </div>
+
+            <!-- Required Qualification Note Card -->
+            <div class="card" style="background: var(--color-secondary-soft); border-color: var(--color-border-strong); justify-content: center;">
+              <h4 class="metric-label" style="color: var(--color-primary);">Academic Study Note</h4>
+              <p style="font-size: 0.86rem; font-style: italic; color: var(--color-text-heading);">
+                &ldquo;These terms were identified during our field visit as topics for further learning. Their precise meaning and application should be confirmed against the bank's terminology and relevant course materials.&rdquo;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TAB 10: CONTACT & CLOSING
+           ==================================================================== -->
+      <section
+        id="panel-contact"
+        role="tabpanel"
+        aria-labelledby="tab-contact"
+        class="tab-panel"
+        hidden
+      >
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <span class="slide-eyebrow">Section 10 &bull; Official Contact Channels &amp; Acknowledgment</span>
+            <h2 class="slide-title">Contact &amp; Closing</h2>
+            <p class="slide-subtitle">
+              Official contact details verified directly from the supplied bank materials and closing appreciation from BBA Batch 32.
+            </p>
+          </div>
+          <span class="epistemic-badge">Reproduced Strictly from Supplied Materials</span>
+        </div>
+
+        <div class="grid-2">
+          <!-- Left Column: Supplied Contact Visual Evidence -->
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div class="photo-card">
+              <div class="photo-frame" style="max-height: 240px;">
+                <img
+                  src="assets/manager-card.jpg"
+                  alt="Supplied visiting card showing Chowkbazar Branch address, phone numbers, email addresses, and official website www.aibl.com.bd"
+                  style="max-height: 215px;"
+                >
+              </div>
+              <div class="card-header-row">
+                <p class="photo-caption">
+                  <strong>Branch Contact Source (`assets/manager-card.jpg`):</strong> Displays branch phone numbers, manager emails, and official website.
+                </p>
+                <button
+                  type="button"
+                  class="photo-enlarge-btn"
+                  data-lightbox-src="assets/manager-card.jpg"
+                  data-lightbox-title="Supplied Branch Contact Card"
+                  data-lightbox-caption="Official visiting card showing Chawkbazar Branch address, cell numbers (01714 138153, 01811 458741), emails (abdullah3772@aibl.com.bd, mgr.chawkbazar@aibl.com.bd), and web address (www.aibl.com.bd)."
+                  data-lightbox-alt="Enlarged view of the branch contact visiting card"
+                >
+                  Enlarge Image
+                </button>
+              </div>
+            </div>
+
+            <div class="photo-card">
+              <div class="photo-frame" style="max-height: 240px;">
+                <img
+                  src="assets/bank-contact.jpg"
+                  alt="Supplied brochure page showing Al-Arafah Islami Bank PLC helpline 16434, Head Office address, email info@aibl.com.bd, and website aibl.com.bd"
+                  style="max-height: 215px;"
+                >
+              </div>
+              <div class="card-header-row">
+                <p class="photo-caption">
+                  <strong>Corporate Contact Source (`assets/bank-contact.jpg`):</strong> Footer of supplied brochure displaying helpline <code>16434</code>, <code>info@aibl.com.bd</code>, and <code>aibl.com.bd</code>.
+                </p>
+                <button
+                  type="button"
+                  class="photo-enlarge-btn"
+                  data-lightbox-src="assets/bank-contact.jpg"
+                  data-lightbox-title="Supplied Bank Contact & Helpline Details"
+                  data-lightbox-caption="Official brochure footer displaying call center number 16434, Retail Banking Division Head Office address in Dhaka, email info@aibl.com.bd, and website aibl.com.bd."
+                  data-lightbox-alt="Enlarged view of the supplied bank contact and helpline details"
+                >
+                  Enlarge Image
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Legible Contact Details & Appreciative Closing Message -->
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <article class="card card-accent-top">
+              <h3 class="metric-label" style="font-size: 1.08rem;">Official Contact Information (Legible in Supplied Materials)</h3>
+              <div class="table-wrap">
+                <table class="data-table" aria-label="Verified Bank Contact Details">
+                  <tbody>
+                    <tr>
+                      <td><strong>24/7 Call Center / Helpline</strong></td>
+                      <td><strong>16434</strong> <em>(from supplied brochure)</em></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Branch Cell Numbers</strong></td>
+                      <td><code>01714 138153</code>, <code>01811 458741</code> <em>(from supplied visiting card)</em></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Official Website</strong></td>
+                      <td>
+                        <a href="https://www.aibl.com.bd" target="_blank" rel="noopener noreferrer">www.aibl.com.bd</a> /
+                        <a href="https://aibl.com.bd" target="_blank" rel="noopener noreferrer">aibl.com.bd</a>
+                        <div class="metric-note" style="margin-top: 0.2rem;">
+                          <em>Offline Presentation Note:</em> While this presentation operates 100% offline, opening the external website link requires an active internet connection.
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Official Email Addresses</strong></td>
+                      <td>
+                        <code>info@aibl.com.bd</code> <em>(Corporate / Brochure)</em><br>
+                        <code>mgr.chawkbazar@aibl.com.bd</code> <em>(Branch Manager Card)</em><br>
+                        <code>abdullah3772@aibl.com.bd</code> <em>(Manager Direct Card)</em>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Branch Location</strong></td>
+                      <td>Chawkbazar Branch, Shahjada Market (1st Floor), Holding # 168, Guljar Circle, College Road, Chattogram</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Head Office (Brochure Footer)</strong></td>
+                      <td>Retail Banking Division, Head Office (3rd Floor), 204/B, Bir Uttam Mir Shawkat Ali Sarak, Tejgaon-Gulshan Link Road, Dhaka-1208</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+
+            <!-- Closing Appreciation Message -->
+            <article class="card card-gold-top" style="background: linear-gradient(145deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: #FFFFFF; border-color: var(--color-accent);">
+              <span class="cover-kicker" style="width: fit-content;">Closing Appreciation</span>
+              <blockquote style="font-family: var(--font-serif); font-size: 1.12rem; line-height: 1.55; color: #FFFFFF; margin: 0.25rem 0;">
+                &ldquo;Thank you to Al-Arafah Islami Bank PLC, Chowkbazar Branch, for welcoming our academic group and providing an opportunity to observe banking practices beyond the classroom.&rdquo;
+              </blockquote>
+              <div style="border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 0.65rem; font-size: 0.84rem; color: rgba(255, 255, 255, 0.88); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem;">
+                <span><strong>Course:</strong> Law and Practice of Banking</span>
+                <span><strong>Institution:</strong> Port City International University (BBA Batch 32)</span>
+                <span><strong>Visit Date:</strong> 27 October 2026</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ========================================================================
+       ACCESSIBLE IMAGE ENLARGEMENT LIGHTBOX MODAL
+       ======================================================================== -->
+  <div
+    id="lightbox-modal"
+    class="lightbox-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-hidden="true"
+    aria-labelledby="lightbox-title"
+  >
+    <div class="lightbox-dialog">
+      <div class="lightbox-header">
+        <h3 id="lightbox-title" class="lightbox-title">Image Preview</h3>
+        <button type="button" id="lightbox-close-btn" class="lightbox-close-btn" aria-label="Close enlarged image view">
+          Close (Esc)
+        </button>
+      </div>
+      <div class="lightbox-body">
+        <img id="lightbox-img" src="assets/bank-logo.png" alt="Enlarged preview" class="lightbox-img">
+      </div>
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
