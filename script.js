@@ -23,9 +23,10 @@
   let loanCaseTimers = [];
   let lastFocusedElement = null;
 
-  const prefersReducedMotion = window.matchMedia &&
-    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // const prefersReducedMotion = window.matchMedia &&
+  //   window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  const prefersReducedMotion = false;
   /**
    * Format integer with standard commas
    */
